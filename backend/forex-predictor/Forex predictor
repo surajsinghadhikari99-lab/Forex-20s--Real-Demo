@@ -1,0 +1,5 @@
+forex-predictor/
+│
+├── app.py           # Main Flask app + simple prediction
+├── requirements.txt # Python dependencies
+└── README.md        # Optional info
