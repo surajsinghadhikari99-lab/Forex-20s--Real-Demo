@@ -1,7 +1,7 @@
 app.py
 from flask import Flask, jsonify
 
-app = Flask(__name__)
+app = Flask gunicorn app:app
 
 @app.route('/predict', methods=['GET'])
 def predict():
